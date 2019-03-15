@@ -40,6 +40,15 @@ body {
     z-index: 1;
 }
 
+@keyframes background-fade-highlight {
+  0% {
+    background-color: #1f9d55;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
 /****************************************
  Dashboard Category List
 *****************************************/
