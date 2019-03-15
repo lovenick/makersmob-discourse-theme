@@ -11,6 +11,10 @@ body {
   border-radius: $border-radius;
 }
 
+/****************************************
+ Dashboard Post List
+*****************************************/
+
 .topic-list {
   border-spacing: 0 1rem;
   border-collapse: separate;
@@ -52,4 +56,25 @@ body {
 .topic-list-item > td:last-child {
   border-top-right-radius: $border-radius;
   border-bottom-right-radius: $border-radius;
+}
+
+/****************************************
+ Topic Posts
+*****************************************/
+
+
+.topic-post {
+    margin-bottom: 3rem;
+}
+
+.topic-post .topic-avatar {
+    border-top: none;
+}
+
+.topic-post .topic-body {
+    border-top: none;
+    padding: 1rem;
+    margin-left: 1rem;
+    background-color: #262d33;
+    border-radius: $border-radius;
 }
