@@ -11,17 +11,25 @@ body {
   border-radius: $border-radius;
 }
 
-.topic-list-item {
-  border-bottom: none;
-  border-spacing: 0.5rem;
+.topic-list {
+  border-spacing: 0 1rem;
   border-collapse: separate;
 }
 
-.topic-list-item > td {
+.topic-list-item {
+  border-bottom: none;
+}
+
+.topic-list-item td {
+  padding: 0 2rem;
   background-color: #262d33;
 }
 
-.topic-list-item > td:first-child {
+.topic-list-item:hover td {
+  background-color: #3d4852;
+}
+
+.topic-list-item > .main-link {
   border-top-left-radius: $border-radius;
   border-bottom-left-radius: $border-radius;
 }
