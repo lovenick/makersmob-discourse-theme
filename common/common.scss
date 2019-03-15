@@ -72,6 +72,12 @@ body {
     border-bottom-right-radius: $border-radius;
 }
 
+.latest-topic-list .table-heading {
+    background-color: #262d33;
+    padding: 0.5rem 1.5rem;
+    border-radius: $border-radius;
+}
+
 /****************************************
  Dashboard Post List
 *****************************************/
