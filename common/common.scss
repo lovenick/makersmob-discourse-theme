@@ -2,6 +2,7 @@
 
 $font-stack: "Open Sans", sans-serif;
 $border-radius: 3px;
+$media-sm: 500px;
 
 body {
     font-family: $font-stack;
@@ -66,26 +67,54 @@ body {
     border-bottom-right-radius: $border-radius;
 }
 
+
 /****************************************
  Topic Posts
 *****************************************/
-
 
 .topic-post {
     margin-bottom: 3rem;
 }
 
+.topic-post .row {
+    display: flex;
+    flex-direction: row;
+}
+
 .topic-post .topic-avatar {
+    width: 30px;
     padding-top: 0;
     border-top: none;
 }
 
+.topic-post .topic-avatar .avatar {
+    width: 30px;
+    height: 30px;
+}
+
+@media(min-width: $media-sm) {
+    .topic-post .topic-avatar {
+        width: 45px;
+    }
+    .topic-post .topic-avatar .avatar {
+        width: 45px;
+        height: 45px;
+    }
+}
+
 .topic-post .topic-body {
+    box-sizing: border-box;
     border-top: none;
     padding: 1rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     background-color: #262d33;
     border-radius: $border-radius;
+}
+
+@media(min-width: $media-sm) {
+    .topic-post .topic-body {
+        margin-left: 1rem;
+    }
 }
 
 .topic-owner .topic-body {
@@ -98,6 +127,7 @@ body {
 }
 
 #topic-footer-buttons {
+    box-sizing: border-box;
     padding: 1rem;
     margin-bottom: 2rem;
     width: 100%;
