@@ -1,0 +1,19 @@
+{
+	"name": "MakersMob",
+	"color_schemes": {
+		"MakersMob Dark": {
+			"primary": "dddddd",
+			"secondary": "22292f",
+			"tertiary": "0f82af",
+			"quaternary": "38c172",
+			"header background": "22292f",
+			"header primary": "8795a1",
+			"highlight": "a87137",
+			"danger": "e45735",
+			"success": "38c172",
+			"love": "fa6c8d"
+		}
+	}
+
+
+}
