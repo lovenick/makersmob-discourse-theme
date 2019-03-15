@@ -168,7 +168,8 @@ body {
 }
 
 .topic-owner.topic-body .topic-meta-data {
-  margin-left: calc(-1rem - 5px);
+  margin-left: -0.9rem;
+  background-color: red;
 }
 
 .topic-post {
