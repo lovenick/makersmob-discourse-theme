@@ -78,3 +78,21 @@ body {
     background-color: #262d33;
     border-radius: $border-radius;
 }
+
+.topic-status-info {
+    border-top: none;
+}
+
+#topic-footer-buttons {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    background-color: #1d2328;
+    border-radius: $border-radius;
+}
+
+.suggested-topics-title {
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #262d33;
+}
+
