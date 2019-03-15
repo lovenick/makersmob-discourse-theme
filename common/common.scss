@@ -41,10 +41,41 @@ body {
 }
 
 /****************************************
+ Dashboard Category List
+*****************************************/
+
+.category-list {
+    border-spacing: 0 1rem;
+    border-collapse: separate;
+}
+
+.category-list tr {
+    background-color: #262d33;
+}
+
+.category-list tr > th {
+    padding: 0.5rem 1.5rem;
+    border-radius: $border-radius;
+}
+
+.category-list tr > td:first-of-type, .category-list tr > td {
+    padding: 1.5rem;
+}
+
+.category-list tr > td:first-child {
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+}
+
+.category-list tr > td:last-child {
+    border-top-right-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+}
+
+/****************************************
  Dashboard Post List
 *****************************************/
 
-/* Icon beside the topic title */
 .topic-statuses {
     margin-right: 0.5rem;
 }
