@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 $font-stack: "Open Sans", sans-serif;
+$border-radius: 3px;
 
 body {
   font-family: $font-stack;
 }
 
 .btn {
-  border-radius: 3px;
+  border-radius: $border-radius;
+}
+
+.topic-list-item {
+  background-color: #262d33;
+  border-radius: $border-radius;
+  margin-bottom: 3rem;
+  border-bottom: none;
 }
