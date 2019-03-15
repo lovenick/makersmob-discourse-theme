@@ -161,14 +161,14 @@ body {
 }
 
 .topic-body .topic-meta-data {
-  border-bottom: 1px solid rgba(255,255,255,0.5);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
   margin: 0 -1rem 0 -1rem;
   padding: 0 1rem 1rem 1rem;
   font-size: 0.9rem;
 }
 
 .topic-owner.topic-body .topic-meta-data {
-  // margin: 0 -1rem 0 calc(-1rem - 5px);
+  margin-left: calc(-1rem + 5px);
 }
 
 .topic-post {
