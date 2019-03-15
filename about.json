@@ -1,19 +1,23 @@
 {
-	"name": "MakersMob",
-	"color_schemes": {
-		"MakersMob Dark": {
-			"primary": "dddddd",
-			"secondary": "22292f",
-			"tertiary": "0f82af",
-			"quaternary": "38c172",
-			"header_background": "22292f",
-			"header_primary": "8795a1",
-			"highlight": "a87137",
-			"danger": "e45735",
-			"success": "38c172",
-			"love": "fa6c8d"
-		}
-	}
-
-
+  "name": "MakersMob",
+  "color_schemes": {
+    "MakersMob Dark": {
+      "primary": "dddddd",
+      "secondary": "22292f",
+      "tertiary": "0f82af",
+      "quaternary": "38c172",
+      "header_background": "22292f",
+      "header_primary": "8795a1",
+      "highlight": "a87137",
+      "danger": "e45735",
+      "success": "38c172",
+      "love": "fa6c8d"
+    }
+  },
+  "assets": {
+    "logo-mark-light": "assets/makers_mob_mark_light_large.png",
+    "logo-mark-dark": "assets/makers_mob_mark_dark_large.png",
+    "logo-light": "assets/makers_mob_light_large.png",
+    "logo-dark": "assets/makers_mob_dark_large.png"
+  }
 }
