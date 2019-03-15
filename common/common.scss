@@ -12,8 +12,21 @@ body {
 }
 
 .topic-list-item {
-  background-color: #262d33;
-  border-radius: $border-radius;
-  margin-bottom: 3rem;
   border-bottom: none;
+  border-spacing: 2rem;
+  border-collapse: separate;
+}
+
+.topic-list-item > td {
+  background-color: #262d33;
+}
+
+.topic-list-item > td:first-child {
+  border-top-left-radius: $border-radius;
+  border-bottom-left-radius: $border-radius;
+}
+
+.topic-list-item > td:last-child {
+  border-top-right-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
 }
