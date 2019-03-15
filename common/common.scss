@@ -20,6 +20,26 @@ body {
     border-radius: $border-radius;
 }
 
+.bullet > .badge-category-bg {
+    border-radius: 100%;
+}
+
+.bullet > .badge-category-parent-bg {
+    box-sizing: border-box;
+    width: 5px;
+    height: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 2;
+}
+
+.badge-wrapper.bullet > .badge-category-parent-bg + .badge-category-bg {
+    box-sizing: border-box;
+    width: 10px;
+    margin-left: -5px;
+    z-index: 1;
+}
+
 /****************************************
  Dashboard Post List
 *****************************************/
