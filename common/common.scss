@@ -72,10 +72,22 @@ body {
     border-bottom-right-radius: $border-radius;
 }
 
+.latest-topic-list {
+    margin-top: 1rem;
+}
+
 .latest-topic-list .table-heading {
     background-color: #262d33;
     padding: 0.5rem 1.5rem;
     border-radius: $border-radius;
+    border-bottom: none;
+}
+
+.latest-topic-list .latest-topic-list-item {
+    background-color: #262d33;
+    padding: 1.5rem;
+    border-radius: $border-radius;
+    border-bottom: none;
 }
 
 /****************************************
